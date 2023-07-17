@@ -16,7 +16,7 @@ const NavBar = () => {
                 </li>
 				<li className="title">
 					<NavLink to='/'>
-						Zelana
+						Zelena
 					</NavLink>
 				</li>
 				<li>
