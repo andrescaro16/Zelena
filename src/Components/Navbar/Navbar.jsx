@@ -23,42 +23,14 @@ const NavBar = () => {
 					<NavLink
 						to='/'
 						className={active}>
-						All
-					</NavLink>
-				</li>
-				<li>
-					<NavLink
-						to='/clothes'
-						className={active}>
-						Clothes
-					</NavLink>
-				</li>
-				<li>
-					<NavLink
-						to='/electronics'
-						className={active}>
-						Electronics
-					</NavLink>
-				</li>
-				<li>
-					<NavLink
-						to='/furniture'
-						className={active}>
-						Furnitures
-					</NavLink>
-				</li>
-				<li>
-					<NavLink
-						to='/toys'
-						className={active}>
-						Toys
+						Contact us
 					</NavLink>
 				</li>
 				<li>
 					<NavLink
 						to='/others'
 						className={active}>
-						Others
+						About
 					</NavLink>
 				</li>
 			</ul>
@@ -69,23 +41,16 @@ const NavBar = () => {
 				</li>
 				<li>
 					<NavLink
-						to='/my-orders'
-						className={active}>
-						My Orders
-					</NavLink>
-				</li>
-				<li>
-					<NavLink
 						to='/my-account'
 						className={active}>
-						My Account
+						Our Account
 					</NavLink>
 				</li>
 				<li>
 					<NavLink
 						to='/sign-in'
 						className={active}>
-						Sign Out
+						Sign In
 					</NavLink>
 				</li>
 			</ul>
