@@ -1,0 +1,30 @@
+.navClass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    padding: 1.25rem 2rem;
+    font-size: 1rem;
+    font-weight: 300;
+    background-color: #fff;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.active {
+    text-decoration: underline;
+    offset: 4px;
+}
